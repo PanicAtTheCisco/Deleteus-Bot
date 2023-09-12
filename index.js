@@ -9,8 +9,7 @@ const prefix = '!';
 
 const { token } = require('./config.json');
 
-const userToDelete = '461966294128787478'; //andrew's id for trolling him
-//const userToDelete = '502635104968114177'; //my id for testing
+const userToDelete = ''; //ADD USER ID HERE
 
 // Initialize the delete toggle to false, so that the message-deleting feature is initially turned off
 let deleteToggle = false;
